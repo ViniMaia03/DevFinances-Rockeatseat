@@ -24,18 +24,24 @@
                 <div class="card">
                     <h3> 
                         <span> Entrada </span>
-                        <img src="assets/income.svg" alt="Imagens de entrada de dinheiro em uma conta">
+                        <img src="assets/income.svg" alt="Símbolo de uma seta para cima, representando entrada de dinheiro">
                     </h3>
                     <p> R$10.000,00 </p>
                 </div>
 
                 <div class="card">
-                    <h3> Saída </h3>
+                    <h3> 
+                        <span> Saída </span>
+                        <img src="assets/expense.svg" alt="Símbolo de uma seta para baixo, representando saída de dinheiro">
+                    </h3>
                     <p> R$3.500,00 </p>
                 </div>
 
                 <div class="card total">
-                    <h3> Total </h3>
+                    <h3> 
+                        <span> Total </span>
+                        <img src="assets/total.svg" alt="Símbolo de um cifrão">
+                    </h3>
                     <p> R$6.500,00 </p>
                 </div>
 
@@ -43,12 +49,16 @@
 
         <section id="transaction">
                 <h2 class="sr-only"> Transações </h2>
+
+                <a href="#" class="button new"> + Nova Transação </a>
+
                 <table id="data_table">
                     <thead>
                         <tr>
                             <th> Descrição </th>
                             <th> Valor </th>
                             <th> Data </th>
+                            <th> </th>
                         </tr>
                     </thead>
         
@@ -57,18 +67,21 @@
                             <td class="description"> Energia </td>
                             <td class="expense"> -R$500,00 </td>
                             <td class="date"> 28/04/2021 </td>
+                            <td> <img src="assets/minus.svg" alt="Transação de dinheiro"> </td>
                         </tr>
         
                         <tr>
                             <td class="description"> Criação do Banco de Dados </td>
                             <td class="income"> +R$2000,00 </td>
                             <td class="date"> 25/05/2021 </td>
+                            <td> <img src="assets/plus.svg" alt="Recebimento de dinheiro"> </td>
                         </tr>
         
                         <tr>
                             <td class="description"> Compra de equipamentos </td>
                             <td class="expense"> -R$3000,00 </td>
                             <td class="date"> 30/05/2021 </td>
+                            <td> <img src="assets/minus.svg" alt="transação"> </td>
                         </tr>
                     </tbody>
                 </table>
