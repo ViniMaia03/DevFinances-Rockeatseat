@@ -88,6 +88,37 @@
         </section>
     </main>
 
+    <div class="modal-overlay active">
+        <div class="modal">
+                <div id="form">
+                    <h2> Nova Transação </h2>
+                    <form>
+                        <div class="input-group">
+                            <label for="descricao" class="sr-only"> Descrição </label>
+                            <input type="text" name="descricao" id="descricao" placeholder="Descrição">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="valor" class="sr-only"> Valor </label>
+                            <input type="number" name="valor" id="valor" step="0.01" placeholder="0.00">
+                            <small class="ajuda"> Use o sinal - (negativo) para despesas e use o sinal , (vírgula) para casas decimais </small>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="data" class="sr-only"> Data </label>
+                            <input type="date" name="data" id="data" placeholder="01/01/2021">
+                        </div>
+
+                        <div class="input-group actions">
+                            <a href="#" class="button cancel"> Cancelar </a>
+                            <button> Salvar </button>
+                        </div>
+                        
+                    </form>
+                </div>
+        </div>
+    </div>
+
     <footer>
         <p> Maia.Finance$</p>
     </footer>
